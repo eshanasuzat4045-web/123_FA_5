@@ -30,7 +30,7 @@ class HomeActivity extends StatelessWidget {
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.deepOrangeAccent,
       ),
       body: Center(
         child: Padding(
@@ -49,7 +49,7 @@ class HomeActivity extends StatelessWidget {
                   CircleAvatar(
                     radius: 50,
                     backgroundImage: NetworkImage(
-                      '', // sample image URL
+                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ21UzJAtu_hYYnpFCbJll7eAoQDRUFMyXS8Q&s', // sample image URL
                     ),
                   ),
                   const SizedBox(height: 16),
@@ -62,7 +62,8 @@ class HomeActivity extends StatelessWidget {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'Computer Science and Engineering Department',
+                    'Batch: 62nd,'
+                    'Department of CSE',
                     style: TextStyle(fontSize: 16, color: Colors.grey[700]),
                   ),
 
